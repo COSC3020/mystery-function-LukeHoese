@@ -27,3 +27,6 @@ Initialize a global variable foo to be a recursive call that passes the array ma
 This is essentially passing on an array that contains every element except the first element, the element at index 0  
 If the value obtained by the recursive call of foo is larger than the value currently stored at the index 0, return foo  
 If all other conditions fail, return the value at index 0  
+
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
