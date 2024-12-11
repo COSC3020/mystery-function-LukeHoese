@@ -14,7 +14,7 @@ function mystery(a) {
 
 The mystery function in question takes an array as a parameter and returns the largest element in the array  
 
-It does this by making an array of every element but the first and recursively calling itself on these increasingly smaller and smaller arrays, with a base case of an array of only one element. It then checks to see if the largest element found in the array minus the first element by the recursive call is larger than first element. If it is that value is returned, if it isn't the first element is returned as the larger of the two  
+It does this by making an array of every element but the first and recursively calling itself on these increasingly smaller and smaller arrays, with a base case of an array of only one element. It then checks to see if the largest element found in the array minus the first element by the recursive call is larger than first element. If it is that value is returned, if it isn't the first element is returned as the larger of the two. By slicing off one element at each call until there is only one element left and making one comparison for every call, you make a comparison for every element in the array, with the greater value in the comparison being returned. This results in the function returning the largest value in the array  
 
 Line by line breakdown:  
 
